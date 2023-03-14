@@ -7,12 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
     @GetMapping("/")
-    public String hello() {
-        return "Hello World!!!";
+    public String welcome(){
+        return "Welcome to the SHIELD";
     }
 
-    @GetMapping("/admin")
-    public String admin() {
-        return "Hello Admin!!!";
+    @GetMapping("/avengers/assemble")
+    public String champion(){
+        return "Avengers... Assemble";
+    }
+
+    @GetMapping("/secret-bases")
+    public String director(){
+        return "Biarritz, Bordeaux, La Loupe, Lille, Lyon, Nantes, Orléans, Paris, Reims, Strasbourg, Toulouse, Amsterdam, Barcelone, Berlin, Lisbonne, Madrid";
     }
 }
