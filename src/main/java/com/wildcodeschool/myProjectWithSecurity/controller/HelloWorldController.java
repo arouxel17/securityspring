@@ -18,6 +18,6 @@ public class HelloWorldController {
 
     @GetMapping("/secret-bases")
     public String director(){
-        return "Biarritz, Bordeaux, La Loupe, Lille, Lyon, Nantes, Orléans, Paris, Reims, Strasbourg, Toulouse, Amsterdam, Barcelone, Berlin, Lisbonne, Madrid";
+        return "biarritz, bordeaux, la Loupe, lille, lyon, nantes, orléans, paris, reims, strasbourg, toulouse, amsterdam, barcelone, berlin, lisbonne, madrid";
     }
 }

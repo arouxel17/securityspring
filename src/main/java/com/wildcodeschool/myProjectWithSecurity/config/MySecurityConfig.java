@@ -38,7 +38,7 @@ public class MySecurityConfig {
 
         UserDetails user = User
                 .withUsername("user")
-                .password("password")
+                .password(encoder.encode("password"))
                 .roles("USER")
                 .build();
 
